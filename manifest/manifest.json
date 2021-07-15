@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/OfficeDev/microsoft-teams-app-schema/preview/DevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+    "version": "1.0.1",
+    "id": "962245c8-4f90-4d98-9ea9-3379e8e34051",
+    "packageName": "07.adaptive-cards-tab",
+    "developer": {
+        "name": "Contoso",
+        "websiteUrl": "https://www.contoso.com",
+        "privacyUrl": "https://www.contoso.com/privacy",
+        "termsOfUseUrl": "https://www.contoso.com/termofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "bot-07-adaptivecards-tab",
+        "full": "bot-07-adaptivecards-tab"
+    },
+    "description": {
+        "short": "Bot with adaptive cards tab",
+        "full": "Bot with adaptive cards tab"
+    },
+    "accentColor": "#FEAE25",
+    "staticTabs": [
+      {
+        "entityId": "homeTab",
+        "name": "Home",
+        "contentBotId": "<<AZURE_APP_ID>>",
+        "scopes": ["personal"]
+      }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "*.loca.lt",
+        "*.ngrok.io"
+    ]
+}
