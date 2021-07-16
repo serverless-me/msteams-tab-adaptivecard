@@ -1,4 +1,4 @@
-# using adaptive cards sample
+# Teams Tab with Adaptive Cards 
 
 Bot Framework using adaptive cards tab sample
 
