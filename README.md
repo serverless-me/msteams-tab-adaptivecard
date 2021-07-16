@@ -6,7 +6,7 @@ This bot has been created using [Bot Framework](https://dev.botframework.com), i
 
 Currently (July 2021) in preview, only Teams desktop client with developer preview is supported and personal/static tab. 
 
-![Teams Tab with Adaptive Card](./docs/AdaptiveCardTab.png "Teams Tab with Adaptive Card")
+![Teams Tab with Adaptive Card](./docs/AdaptiveCardsTab.png "Teams Tab with Adaptive Card")
 
 ![TeamsActivityHandler.handleTeamsTabFetch(...)](./docs/TeamsActivityHandler.png "TeamsActivityHandler.handleTeamsTabFetch(...)")
 
