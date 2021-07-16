@@ -4,7 +4,12 @@ Bot Framework using adaptive cards tab sample
 
 This bot has been created using [Bot Framework](https://dev.botframework.com), is shows how to use an Adaptive Card in a Teams tab.
 
-Currently (July 2021) in preview, only Teams desktop client with developer preview is supported. 
+Currently (July 2021) in preview, only Teams desktop client with developer preview is supported and personal/static tab. 
+
+![Teams Tab with Adaptive Card](./docs/AdaptiveCardTab.png "Teams Tab with Adaptive Card")
+
+![TeamsActivityHandler.handleTeamsTabFetch(...)](./docs/TeamsActivityHandler.png "TeamsActivityHandler.handleTeamsTabFetch(...)")
+
 
 ## Prerequisites
 
